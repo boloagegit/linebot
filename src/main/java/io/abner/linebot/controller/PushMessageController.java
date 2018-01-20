@@ -35,6 +35,7 @@ public class PushMessageController {
             logger.info("userId and groupId can not be empty in the same time!");
         }
 
+
         return pushMessageService.pushMessage(message, groupId, userId);
     }
 
